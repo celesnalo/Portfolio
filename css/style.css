@@ -95,8 +95,9 @@ figure {
 }
 
 .page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
-    padding: 11px;
-    background: #ccc;
+    padding: 1px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(173,70,252,1) 74%);  
 }
 
 .page-border .bottom-border, .page-border .top-border {
@@ -883,7 +884,7 @@ h6 {
     position: relative;
     top: -11px;
     padding: 0 5px 0 5px;
-    color: #e1e1e1;
+    color: #000000;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -1521,7 +1522,7 @@ blockquote {
 }
 
 #scrollUp:before {
-    background: #ccc;
+    background: #00e1ff;
     font-family: "fontawesome";
     font-size: 2.4em;
     font-style: normal;
@@ -1544,7 +1545,8 @@ blockquote {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff; /* change if the mask should have another color then white */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(173,70,252,1) 74%);
     z-index: 99999; /* makes sure it stays on top */
 }
 
